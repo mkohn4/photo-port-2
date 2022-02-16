@@ -69,7 +69,7 @@ function ContactForm() {
                         </div>
                     )}
                 </div>
-                <button type="submit">Submit</button>
+                <button data-testid="button" type="submit">Submit</button>
             </form>
         </section>
     )
